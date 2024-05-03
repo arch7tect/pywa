@@ -12,6 +12,9 @@ wa = WhatsApp(
     token='EAANpSTSV5EABOZB7dBIwsnJqXDQLfZCnZC9nomASltvwwjc3EAThPXznHZCZBu8tPeAGFZCk9gGBiFreNOUGDSrSkIfyQ2Dti7rrZCcJ86ZCg1a2oYAAmxBoXPC3tLnadJI5UrbUZBQewLk75CQ8nhfZAYcYvVld8bQoHZA19VZACXZA1YV2WAYrI7beAd7dsZARl51uoA',
     server=flask_app,
     verify_token='038726584673',
+    callback_url='https://still-kindly-chigger.ngrok-free.app',
+    app_id=960188065899584,
+    app_secret='dd6427d4b6c49b3b5bd2742818e84927',
 )
 
 MESSAGE_ID_TO_TEXT: dict[str, str] = {}  # msg_id -> text
